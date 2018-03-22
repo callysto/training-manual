@@ -43,7 +43,7 @@ This introduction is far superior to the last one. Not only have we introduced _
 From conversations with K-12 teachers is that it may be useful to have an "eye catching" graphic in the first few lines in order to draw in your K-12 crowd. This is pretty flexible and can range from either a widget that you're going to go over how to build, to relevant YouTube videos or gifs. For example
 
 > ## Introduction
-The rise of cryogenic technologies have been largely popularized by the work of one Philip J. Fry:
+>The rise of cryogenic technologies have been largely popularized by the work of one Philip J. Fry:
 >
 > ![alt text](https://media.giphy.com/media/ny8F1nqXDKrAY/giphy.gif)
 >
