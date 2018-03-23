@@ -17,23 +17,20 @@
  ## Example... Example
 
  Suppose you're creating a notebook describing finding common denominators of numbers to someone in the third grade. A very bad way to describe that to someone in third grade would be:
- > Common denominators typically of interest in many algebraic and integer functions, where integer functions $f$ have the following property
-$$
- \begin{equation}
- f:  I \rightarrow \mathbb{Z}
- \end{equation}
-$$
- Without losing generality one can state that...
+
+
+ > Common denominators typically of interest in many algebraic and integer functions, where integer functions $$f$$ have the following property
+>
+>$$ f:  I \rightarrow \mathbb{Z} $$
+>
+> Without losing generality one can state that...
 
 while a discussion at that level is acceptable at the post secondary and academic level, that sentence and notation will mean exactly nothing to someone in the third grade. At the third grade level, a more suitable way to describe common denominators may read something more like this:
 > Two fractions that have the same number on the bottom of the fraction  have a "common denominator" -- which means the number on the bottom of each fraction is the same. For example the fractions
-$$
-\begin{equation}
-\frac{10}{8} \; \text{ and } \; \frac{5}{8}
-\end{equation}
-$$
-
-both have a common denominator of 8. Common denominators....
+>
+>$$ \frac{10}{8} \; \text{ and } \; \frac{5}{8} $$
+>
+>both have a common denominator of 8. Common denominators....
 
 
 
