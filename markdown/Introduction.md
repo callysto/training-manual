@@ -1,13 +1,15 @@
 # Things to keep in mind while you're developing content
    Every time you create a notebook for the Callysto project, it is of the utmost importance that you keep your target audience in mind. As each notebook may be aimed at a different grade/experience level, you will need to be consciously aware of that during the notebook creation process. If your notebook is meant to teach content from the fifth grade, then tailor your introductions in such a way that someone in the fifth grade can understand. Unfortunately that is not an easy task, but it is of vial importance not to "Principal Skinner" your notebooks (YouTube link below):
 
-   <iframe
-       width="600"
-       height="500"
-       src="http://www.youtube.com/watch?v=HMqZ2PPOLik"
-       frameborder="0"
-       allowfullscreen>
-   </iframe>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/HMqZ2PPOLik"
+    frameborder="0"
+     allowfullscreen>
+  </iframe>
+
+
 
 
    As a Callysto creator, you're undoubtedly so far removed from the K-12 experience that unlike Principal Skinner: You are out of touch. Say these words out loud "I am out of touch". You need to keep this in mind that for every notebook you create, and adapt your writing/teaching style accordingly. Continuously ask yourself "Would someone who knows absolutely nothing about anything contained within this topic understand the explanation I've given?". Almost certainly, in regards to the first draft of your notebook the answer to that question will be no. Something that is now second nature to you from years of experience around either the subject matter and Python (or both), is likely to be completely foreign to a K-12 student who has never seen a line of code before. It is imperative that you are clear and explicit in your explanations - but also in a way that your audience can understand.
