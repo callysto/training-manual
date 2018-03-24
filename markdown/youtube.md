@@ -21,14 +21,9 @@ YouTubeVideo('kthi--SH2Nk')
 
 You can also insert your own mp4 videos into the notebook. such as this example: 
 
-<iframe
-    width="300"
-    height="300"
-    src="/assets/knot.mp4"
-    type="video/mp4"
-    frameborder="0"
-    allowfullscreen> 
-</iframe>
+<video width="320" height="240" controls autoplay loop>
+<source src="/assets/knot.mp4" type="video/mp4">
+</video>
 
 
 With the keyword *controls autoplay loop* we get a video with a slider control, that starts playing automatically, and loops continuously. The Python code looks like this:
@@ -46,8 +41,6 @@ HTML("""
 
 
 
-<video width="320" height="240" controls autoplay loop>
-<source src="/assets/knot.mp4" type="video/mp4">
-</video>
+
 
 
