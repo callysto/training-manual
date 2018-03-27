@@ -1,11 +1,11 @@
-### Process for bug reporting - Have you tried turning it off and on again?
+# Process for bug reporting - Have you tried turning it off and on again?
 
 ## Who can report a bug?
 
-#Internal 
+### Internal 
 * Cybera & PIMS
 
-# External
+### External
 * Callysto creator (content creator / curriculum expert - professor, teachers etc)
 * Callysto developer (Student developers)
 * End users - Students, Teachers
