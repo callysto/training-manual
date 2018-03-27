@@ -1,4 +1,4 @@
-### 13. Best practices for code development
+### Best practices for code development
 
 #### Inherited Best Practices
 
@@ -10,7 +10,7 @@ We should attempt to follow the coding practices of the Python community as clos
 
 A simple, but effective, way to make sure you're following these coding guidelines is to first take a look at existing content and follow the style of that. If you notice something about the style that seems odd to you, that may be a good time to review these guidelines and/or the underlying [PEP 8](http://pep8.org) guidelines. In doing this, you may find that something in the repository isn't following these guidelines. 
 
-This will almost certainly happen with many people contributing code and as certain coding practices are modified. This guide won't assume the way your team is working. You may have an issue log that's kept to address later, you may have a single person in charge of the notebook that you inform, or if there's an appropriate Git process in place, you may be able to submit your own change and have it merged.
+This will almost certainly happen with many people contributing code and as certain coding practices are modified. This section of the training manual won't assume the way your team is working. You may have an issue log that's kept to address later, you may have a single person in charge of the notebook that you inform, or if there's an appropriate Git process in place, you may be able to submit your own change and have it merged.
 
 #### Making Changes
 
@@ -101,12 +101,13 @@ import pandas as pd
 
 When developing a module, spend some time considering what aspects of computational thinking you're actually trying to demonstrate and whether or not you can assume any prerequisite knowledge in various programming concepts.
 
-Whenever there is a need to reduce complexity without also reducing functionality (i.e. you want to show a fancy plot but not go over all of the necessary knowledge to produce that plot), consider extracting that complexity into a function in a separate Python file that is included alongside the notebook:
+Whenever there is a need to reduce complexity without also reducing functionality (i.e. you want to show a fancy plot but not go over all of the necessary knowledge to produce that plot), consider extracting that complexity into a function in a separate Python file that is included in a notebook_code subfolder:
 
 ```
 /some_folder/
   my_awesome_notebook.ipynb
-  my_awesome_support.py
+  notebook_code/
+    my_awesome_support.py
 ```
 
 Example **my_awesome_support.py**:
@@ -127,7 +128,7 @@ def complex_fizz():
 Example **My Awesome Notebook.ipynb**:
 
 ```python
-from my_awesome_support import *
+from notebook_code.my_awesome_support import *
 
 complex_fizz()
 os.mkdir('somedir')
@@ -135,7 +136,43 @@ os.mkdir('somedir')
 
 You may note that the use of `import *` is discouraged in [PEP 8](http://pep8.org). In this case, we really do want to grab everything in the file. The functions we've defined in it are specifically for this notebook (so we're not worried about them clashing with existing functions), and we're bringing in imports, such as `os` and `numpy as np` that are already namespaced.
 
-An additional benefit of maintaining a convention of a similarly named file alongside the notebook file in the same folder is that it is easy to find the code that we've chosen to hide in this way for anyone who's curious. Our main purpose of putting code like this in a separate file is to improve the ability to focus on the most important code in a notebook, not to obscure it.
+By maintaining the convention of placing helper code under a notebook_code folder alongside the notebooks that use it, we make it easy to find this code for anyone who's curious. Don't go too crazy with this. Our main purpose of putting code like this in a separate file is to improve the ability to focus on the most important code in a notebook, not to obscure it. You'll likely only need one file per notebook and/or one file for common functionality between notebooks in the module. Try to keep imports of this code simple, as demonstrated above. For example, if you have the following:
+
+```
+notebook_module/
+    notebook_a.ipynb
+    notebook_b.ipynb
+    notebook_code/
+        common.py
+        a.py
+        b.py
+```
+
+**a.py**:
+
+```python
+from common import *
+```
+
+**b.py**:
+
+```python
+from common import *
+```
+
+**notebook_a.ipynb**:
+
+```python
+from notebook_code.a import *
+```
+
+**notebook_b.ipynb**:
+
+```python
+from notebook_code.b import *
+```
+
+This is really as complicated as things should ever get for most notebooks. And remember, you may not even need helper code. If your notebook code is simple enough and/or you can assume advanced users, you may not have much reason to do anything outside of it.
 
 ##### Helper Packages
 
@@ -147,7 +184,32 @@ Please don't start writing any packages on your own. We'll want to coordinate an
 
 #### Folders
 
-If your demo has many file associated to it (images,source code, etc.) it is best to keep them all organized into folder and subfolders, so users know what "package" to copy.
+If your demo has many file associated to it (images,source code, etc.) it is best to keep them all organized into folder and subfolders, so users know what "package" to copy. Here's a suggested structure. You don't have to use every folder (if you don't store or use any data, for example, you won't need a "data" folder), but following similar names will help people navigate when using other notebooks:
+
+```
+Module_Name/
+    notebook_one.ipynb
+    notebook_two.ipynb
+    images/
+        image1.jpg
+        image2.png
+    data/
+        .gitignore
+        some_data.csv
+        more_data.csv
+    notebook_code/
+        one.py
+        two.py
+```
+
+Use the `.gitignore` file in `data` to ignore any files that you don't intend to store in Git when checking in changes to the notebook. For example, in one of your notebooks you may download some data but don't want people to have to continually download the data if they've already done it once. If you cache this under `data`, you don't want someone to accidentally check it in. Adding an entry to `.gitignore` will prevent that from happening. Or perhaps you encourage whoever's running the notebook to upload their own file to use in an exercise. You could create an `uploads` folder under `data` and ignore that, or just ignore all files of a particular filetype. If you're using a small amount of data that isn't sensitive, you may want to check it in with the notebook. In this case, you wouldn't include an entry in `.gitignore`, or if you're already ignoring files of that type, you'd want to make a special entry to *exclude* the file you want to check in from the ones ignored. Example:
+
+```
+*.csv
+!i-still-want-to-be-under-version-control.csv
+```
+
+There's some [more information](https://help.github.com/articles/ignoring-files/) on ignoring files from the good folks at GitHub.
 
 #### Keeping it Simple
 
