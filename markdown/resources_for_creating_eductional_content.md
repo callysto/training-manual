@@ -2,13 +2,15 @@
 
 ### Educational resources
 
-text books online (?)
 http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en curriculum  for K-12
+
 http://www.2learn.ca/kids/  Interactive resources for teachers - (grades 4-6)
+
 http://www.learnalberta.ca/Home.aspx  - resources for teachers  - (password needed)
+
 http://www.learnalberta.ca/content/mychildslearning/index.html  - parent resources
 
-http://castlerockresearch.com/snap-student-notes-and-problems-workbooks/ (?)
+http://castlerockresearch.com/snap-student-notes-and-problems-workbooks/ 
 
 http://www.learnalberta.ca/alrdb.aspx#/  -  Authorized Learning Resources Database
 
