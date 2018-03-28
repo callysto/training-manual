@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**Motivate**  and introduce the content and context of your notebook.
+**Motivate**  and introduce the content and context of your notebook. **Why** are you creating this notebook? **What** will you teach? **Why** should the reader care?
 
 ### Background
 
