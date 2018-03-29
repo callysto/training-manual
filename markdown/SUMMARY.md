@@ -31,4 +31,5 @@
     * [Hacks to input html code and Javascript](hacks.md)
 * [Online resources](internal-links.md)
     * [Useful links](useful-links.md)
+    * [Contacts](contacts.md)
 
