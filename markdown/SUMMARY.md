@@ -22,11 +22,9 @@
 * Coding
     * [Best practices for code development](best-practices.md)
     * [Markdown language](markdown.md)
-    * [Python coding](python-coding.md)
     * [R coding](r-coding.md)
 * [Special topics](special.md)
     * [Animations](animation.md)
-    * [Widgets](widgets.md)
     * [Animating graphs](animate-graphs.md)
     * [Audio](audio.md)
     * [Videos](youtube.md)
