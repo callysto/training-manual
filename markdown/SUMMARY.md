@@ -25,6 +25,7 @@
 * [Special topics](special.md)
     * [Animations](animation.md)
     * [Animating graphs](animate-graphs.md)
+    * [Widgets for interactivity](widgets.md)
     * [Audio](audio.md)
     * [Videos](youtube.md)
     * [Hacks to input html code and Javascript](hacks.md)
