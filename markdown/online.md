@@ -12,7 +12,6 @@ This is where we post our public demos, notebooks, etc.
 
 [https://github.com/callysto](https://github.com/callysto)
 
-
 #### The private Callysto github repo:
 This is where we post our private demos, for discussion and improvement before release.
 
@@ -35,3 +34,6 @@ This is where we post our private demos, for discussion and improvement before r
 
 #### Jira project management tools
 <https://jira.cybera.ca>
+
+#### Slack 
+https://cancode-collaboration.slack.com
