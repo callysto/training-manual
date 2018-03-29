@@ -1,4 +1,4 @@
-### 6. Online resources
+### 6. Internal Project Links
 
 #### The Callysto server:
 You can create and run your Jupyter notebooks using the callysto server that is maintained by Cybera and PIMS. Just click here:
