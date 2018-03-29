@@ -17,7 +17,6 @@
     * [Notebook binders, pullers and viewers](nbviewers.md)
 * Teams & Processes
     * [Team structure](teams.md)
-    * [Agile Programming and Sprints](agile.md)
     * [Bug Reporting](bug-reporting.md)
 * Coding
     * [Best practices for code development](best-practices.md)
