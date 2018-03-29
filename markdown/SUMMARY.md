@@ -32,6 +32,6 @@
     * [Videos](youtube.md)
     * [Hacks to input html code and Javascript](hacks.md)
     * [Making a script in Mac OS X](osx-script.md)
-* [Online resources](online.md)
+* [Online resources](internal-links.md)
     * [Useful links](useful-links.md)
 
