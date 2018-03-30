@@ -9,13 +9,6 @@ Lead Developer, India Heisz india@pims.math.ca
 + mathbox questions 
 + wrote sections of the training manual, feel free to suggest additions
 
-[//]: # (
-Helper Functions Maintainer, David Ackerman david.ackerman@cybera.ca
-+ reviews pushes to the helper function repo
-+ senior developer
-+ wrote the coding practices and style manual sections
-)
-
 D3 Programmer, Eric Easthope eric.easthope@me.com
 + contact with any D3 questions or D3 code help
 
