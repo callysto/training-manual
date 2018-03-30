@@ -3,7 +3,7 @@
 This is the Callysto Creators Training manual containing best practices and guidelines for content creators to help standardize the code and notebooks produced for the Callysto project. It also contains processes and procedures used during notebook development and review.
 
 ## Launching the gitbook
-The contents here are set up as a gitbook that can easily be run locally using the following steps.
+The contents here are set up as a gitbook that can easily be run locally on the command line using the following steps.
 
 1. Install npm (only need to run once)
 ```
@@ -12,9 +12,14 @@ npm install gitbook-cli -g
 2. Build the gitbook
 In the folder containing the markdown documents
 ```
+cd markdown
 gitbook init
 ```
-3. Launch the gitbook
+3. Install any plugins
+```
+gitbook install
+```
+4. Launch the gitbook
 ```
 gitbook serve
 ```
