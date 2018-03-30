@@ -11,7 +11,6 @@
     * [Notebook Format](NotebookFormat.md)
     * [Template](notebook_template.md)
 * Tools
-    * [Jupyter Hub](jhub.md)
     * [Jupyter notebooks](jnb.md)
     * [Notebook binders, pullers and viewers](nbviewers.md)
 * Teams & Processes
