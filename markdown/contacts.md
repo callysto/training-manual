@@ -7,13 +7,13 @@ Lead Developer, India Heisz india@pims.math.ca
 + help with code
 + questions about the project
 + mathbox questions 
-+ wrote this guide, feel free to suggest additions
++ wrote sections of the training manual, feel free to suggest additions
 
 <!---
 Helper Functions Maintainer, David Ackerman david.ackerman@cybera.ca
 + reviews pushes to the helper function repo
 + senior developer
-+ wrote the coding practices and style guides
++ wrote the coding practices and style manual sections
 -->
 
 D3 Programmer, Eric Easthope eric.easthope@me.com
@@ -21,9 +21,9 @@ D3 Programmer, Eric Easthope eric.easthope@me.com
 
 Project Coordinator, Michael Lamoreux mikel@pims.math.ca
 + Adds you to the Callysto Github and Developer Team on Github
-+ wrote the intro guide
++ wrote the intro training manual sections
 
 Project Manager, Byron Chu byron.chu@cybera.ca
 + adds you to Jira
-+ wrote the team structure and workflow guides
++ wrote the team structure and workflow training manual sections
 + if you are uncomfortable contacting your other team leaders for any reason please address your concerns with Byron.
