@@ -20,7 +20,6 @@
 * Coding
     * [Best practices for code development](best-practices.md)
     * [Markdown language](markdown.md)
-    * [R coding](r-coding.md)
 * [Special topics](special.md)
     * [Animations](animation.md)
     * [Animating graphs](animate-graphs.md)
