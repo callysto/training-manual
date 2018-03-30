@@ -10,6 +10,7 @@ Steps to go through if it is not working:
 + If you are still stuck reach out to the appropriate person. 
 
 ### Specific Issues
+
 If you are using JavaScript `require` try switching it to `requirejs`. `require` sometimes stores JS in the cell's metadata which persists even after a restart and cache clear. `requirejs` *seems to* avoid this issue. 
 ---
 If you are getting the error "IOPub data rate exceeded" try to downsize what you are processing. We have upper bounds to avoid things like infinite loops crashing the servers. If you know that what you need to be processing is large you can contact cybera  to have your data rate limit increased.
