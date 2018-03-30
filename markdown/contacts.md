@@ -7,7 +7,6 @@ Lead Developer, India Heisz india@pims.math.ca
 + help with code
 + questions about the project
 + mathbox questions 
-+ bugs with Callysto hub or Jupyter
 + wrote this guide, feel free to suggest additions
 
 <!---
