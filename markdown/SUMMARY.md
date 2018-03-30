@@ -5,7 +5,6 @@
 * [Preface](Introduction.md)
 * Philosophy
     * [Goals of the project](goals.md)
-    * [Start with visuals!](start-visuals.md)
     * [Sofware tools - Eat your own dogfood](tools1.md)
     * [Software tools - Roll your own](tools2.md)
 * Design
@@ -32,4 +31,3 @@
 * [Online resources](internal-links.md)
     * [Useful links](useful-links.md)
     * [Contacts](contacts.md)
-

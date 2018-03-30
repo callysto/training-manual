@@ -1,3 +1,7 @@
+All of our demos should involve snazzy visuals. As an example, here is a D3 animation with colourful balls to chase with your mouse. If you see nothing,  click on "Reload" in your browser.
+
+(The animation does not show up in the Gitbook Editor, only in the published version.)
+
 <html>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <script type="text/javascript" src="https://mbostock.github.io/d3/talk/20111018/d3/d3.js"></script>

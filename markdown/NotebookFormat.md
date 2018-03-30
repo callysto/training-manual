@@ -24,6 +24,9 @@ Where the details behind these sections are explained below.
 
 However, the basic format of the notebooks can be described as "Describe what you're going to teach in this notebook and why, provide further details of what you said you would teach, demonstrate what you have taught, and state those facts again."
 
+### A Note About Visualizations
+All of our demos should include eye-catching visualizations (static or interactive). For inspiration and instruction please visit our [Special Topics](special.md) section.
+
 ## Introductions
 All notebooks for the Callysto project will require an introduction. In this section you will outline and motivate the content of your notebook so there is no ambiguity in regards to the content of your notebook. This is arguably the most important section of any notebook. This is the first section any student/teacher is going to read, and if your introduction is vague/bad, then the content you create is never going to get used. Below are some examples of both a bad and a good introduction
 

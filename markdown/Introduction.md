@@ -1,4 +1,16 @@
-# Things to keep in mind while you're developing content
+# Welcome To Callysto
+
+The Callysto project is a collaboration between the Pacific Institute of Mathematical Sciences (PIMS) and Cybera Inc and is funded by the Government of Canada through its CanCode program. Our overall goal is to bring elements of computational thinking into the K-12 curriculum by developing showcase curriculum modules using Jupyter technology and training K-12 teachers to use these modules in the classroom.
+
+### Why Callysto?
+
+The open-source Jupyter technology is an important aspect of how we are delivering the curriculum materials we are developing. [Callysto](https://en.wikipedia.org/wiki/Callisto_(moon) is a moon of Jupiter and the `y` is our way of aligning ourselves to the larger [Project Jupyter](http://jupyter.org/).
+
+### The Purpose of This Guide
+
+This training guide is meant to be an all-in-one resource for Callysto creators and developers to get started on building content for the Callysto project.
+
+## Things to Keep in Mind While You're Developing Content
    Every time you create a notebook for the Callysto project, it is of the utmost importance that you keep your target audience in mind. As each notebook may be aimed at a different grade/experience level, you will need to be consciously aware of that during the notebook creation process. If your notebook is meant to teach content from the fifth grade, then tailor your introductions in such a way that someone in the fifth grade can understand. Unfortunately that is not an easy task, but it is of vial importance not to "Principal Skinner" your notebooks (YouTube link below):
 
   <iframe
@@ -12,7 +24,7 @@
 
 
 
-   As a Callysto creator, you're undoubtedly so far removed from the K-12 experience that unlike Principal Skinner: You are out of touch. Say these words out loud "I am out of touch". You need to keep this in mind that for every notebook you create, and adapt your writing/teaching style accordingly. Continuously ask yourself "Would someone who knows absolutely nothing about anything contained within this topic understand the explanation I've given?". Almost certainly, in regards to the first draft of your notebook the answer to that question will be no. Something that is now second nature to you from years of experience around either the subject matter and Python (or both), is likely to be completely foreign to a K-12 student who has never seen a line of code before. It is imperative that you are clear and explicit in your explanations - but also in a way that your audience can understand.
+   As a Callysto creator and developer, you're undoubtedly so far removed from the K-12 experience that unlike Principal Skinner: You are out of touch. Say these words out loud "I am out of touch". You need to keep this in mind that for every notebook you create, and adapt your writing/teaching style accordingly. Continuously ask yourself "Would someone who knows absolutely nothing about anything contained within this topic understand the explanation I've given?". Almost certainly, in regards to the first draft of your notebook the answer to that question will be no. Something that is now second nature to you from years of experience around either the subject matter and Python (or both), is likely to be completely foreign to a K-12 student who has never seen a line of code before. It is imperative that you are clear and explicit in your explanations - but also in a way that your audience can understand.
 
  ## Example... Example
 
@@ -71,7 +83,7 @@ Where that's certainly a less interesting snippet of code, it's a lot more appro
 
 With all that said: if you can create an intuitive and interesting interactive widget/visualization that requires some more "advanced" coding, you are absolutely free to do that. A lot of the time more interactive widgets and functionality will make explaining what you hope to teach many times easier. In this case take advantage of the ability to hide blocks of code and only give the student access to the widget itself.
 
-### Conclusion/Take Away
+## Conclusion/Take Away
 
 When you're creating notebooks for the Callysto project, you need to be hyper aware of the skill set of your audience. There will definitely be occasions where you can get more involved in the code and the explanations in cases like high school content. Even so, a lot of the people this content will be used by will have little to no experience with Python or even the subject you're trying to teach. Unfortunately that means you'll likely have to change how you typically develop content from how you normally would. Below we've summarized a few flexible guidelines for you to keep in mind while developing content
 
@@ -87,5 +99,6 @@ In summary, be conscious of who the audience of your content will be, and don't 
 
 
 
-## Pre-requisite notebooks?
-Do we have/need a list of pre-requisites/tell people to check for them?
+### Pre-requisite notebooks
+
+Some examples of developed Callysto curriculum module notebooks can be found in this [GitHub repository](https://github.com/callysto/callysto-sample-notebooks). These specific examples should help you get inspired and started: [Investigating Conductivity](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Science/investigating_conductivity.ipynb), [Radioactive Decay](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Physics/Nuclear.ipynb), [Flipping Coins](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Math/FlippingCoins.ipynb), [Interactive Geometry](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Math/Interactive%20Geometry.ipynb), [American Revolution](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Social_Sciences/History/American_revolution_with_animated_slider.ipynb) and [Shakespeare and Statistics](https://github.com/callysto/callysto-sample-notebooks/blob/master/notebooks/Social_Sciences/Humanities/Shakespeare_and_Statistics.ipynb).

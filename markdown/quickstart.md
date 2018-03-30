@@ -12,8 +12,8 @@ The recommended way to run the sample notebooks is to use the JupyterHub set up 
 ### Setting up GitHub with hub.callysto.ca
 Once logged in at [hub.callysto.ca](https://hub.callysto.ca), it is recommended to set up SSH authentication for interacting with GitHub. To do so, create a new private key on hub.callysto.ca and add the corresponding public key to your GitHub account as per the following instructions.
 
-1. Using your GitHub email, open a terminal create the key using the following command and hitting enter when prompted.
-```bash
+1. Using your GitHub email, open a terminal and create the key using the following command and hitting enter when prompted.
+```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 Note that by default, the new key will overwrite any key stored in *.ssh/id_rsa*, so don't accept the default path unless you either have no key stored here or no longer need the original private key file.
