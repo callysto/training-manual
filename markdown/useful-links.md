@@ -1,49 +1,46 @@
+## Useful Links
+Feel free to add your own links to the list! Just push your suggested additions.
+
 ### Educational resources
 
-http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en Curriculum for K-12
+[Alberta Curriculum for K-12](http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en) 
 
-http://www.2learn.ca/kids/ -Interactive resources for teachers (grades 4-6)
+[Interactive resources for teachers (grades 4-6)](http://www.2learn.ca/kids/)
 
-http://www.learnalberta.ca/Home.aspx - Resources for teachers password needed)
+[Parent expectations, Alberta](http://www.learnalberta.ca/content/mychildslearning/index.html)
 
-http://www.learnalberta.ca/content/mychildslearning/index.html - Parent resources
+[uthorized learning resources database, Alberta](http://www.learnalberta.ca/alrdb.aspx#/)
 
-http://castlerockresearch.com/snap-student-notes-and-problems-workbooks/ 
+[Book “Doing Math with Python”](https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/)
 
-http://www.learnalberta.ca/alrdb.aspx#/ - Authorized learning resources database
-
-https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/ - Book “Doing Math with Python”
-
-https://open.alberta.ca/dataset?tags=Grade+10 - Alberta open data (school related)
-
-Online learning resources - mathletics, prodigy, raz-kids, lexia.
-
-https://www.khanacademy.org - Videos on a wide variety of subjects, in some cases even broken down by grade, that may give inspiration for developing interactive ways of exploring a concept.
+[Alberta open data (school related)](https://open.alberta.ca/dataset?tags=Grade+10)
 
 ### Python for kids
-https://github.com/mikkokotila/jupyter4kids
+[Jupyter for kids](https://github.com/mikkokotila/jupyter4kids)
 
-http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/
+[How To Teach Python To Kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
 
 ### Notebook examples
 
-https://github.com/misterhay/Grade6Math - Example notebook for grade 6 Math
+[Example notebook for grade 6 Math](https://github.com/misterhay/Grade6Math)
 
-https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology - Gallery of interesting Jupyter notebooks
+[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology) 
 
-https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc  - Question about using Jupyter notebooks at school
+[Question about using Jupyter notebooks at school](https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc)
 
-http://nb.bianp.net/sort/views/ - More interesting Jupyter notebooks
+[More interesting Jupyter notebooks](http://nb.bianp.net/sort/views/) 
 
 ### Python
 
-http://www.learnpython.org/en/  - Interactive Python tutorials
+[Learn Python with Python Challenge](http://www.pythonchallenge.com/)
 
-https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/ - Usborn book Python for kids
+[Interactive Python tutorials](http://www.learnpython.org/en/)
 
-http://docs.python-guide.org/en/latest/writing/style/ - The Hitchhiker's Guide to Python
+[Usborn book Python for kids](https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/)
 
-http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html - Python interactive widgets
+[The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/style/)
+
+[Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) 
 
 ### Visualization
 
