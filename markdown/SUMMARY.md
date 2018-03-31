@@ -16,6 +16,7 @@
     * [Best practices for code development](best-practices.md)
     * [Markdown language](markdown.md)
     * [Bug Reporting](bug-reporting.md)
+    * [Troubleshooting](troubleshooting.md)
 * [Information Visualization](infovis.md)
     * Plotting
     * [Audio](audio.md)
