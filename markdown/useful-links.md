@@ -37,6 +37,8 @@ Feel free to add your own links to the list! Just push your suggested additions.
 
 [Reference cells in markdown](https://stackoverflow.com/questions/28080066/how-to-reference-a-ipython-notebook-cell-in-markdown)
 
+[Javascript to Python Communication](http://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/)
+
 Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on Jupyter and Python](http://nbviewer.jupyter.org/github/profjsb/python-bootcamp/tree/master/Lectures/)
 
 [Jupyter Modules](https://stackoverflow.com/questions/1031659/ipython-modules)
