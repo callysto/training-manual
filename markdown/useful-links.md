@@ -42,6 +42,14 @@ Feel free to add your own links to the list! Just push your suggested additions.
 
 [Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) 
 
-### Visualization
+### Information Visualization
 
-https://www.youtube.com/watch?v=RG_BKQRbJZw - Some basics on when/why to use certain types of visualizations
+Use [Color brewer](http://colorbrewer2.org) to select your color schemes.
+
+[Basics](https://eagereyes.org/section/basics) you should know.
+
+[Further reading](https://eagereyes.org/section/techniques) on infovis techniques.
+
+[Perceptual edge](http://www.perceptualedge.com/) is a treasure trove of infovis.
+
+[A gallery](http://conceptviz.github.io/#/e30=) of concept visualizations.
