@@ -24,7 +24,7 @@
     * [Animations](animation.md)
     * [Animating graphs](animate-graphs.md)
     * [Widgets for interactivity](widgets.md) 
-* [Special Topics](special.md)       
+* Special Topics      
     * [Hacks to input html code and Javascript](hacks.md)
     * [Notebook binders, pullers and viewers](nbviewers.md)
 * [Online Resources](internal-links.md)
