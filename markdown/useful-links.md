@@ -42,9 +42,22 @@ Feel free to add your own links to the list! Just push your suggested additions.
 
 [Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) 
 
+### Coding
+[Textbooks and conversion](https://stackoverflow.com/questions/23292242/converting-to-not-from-ipython-notebook-format)
+
+[Useful Blog on Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) 
+
+["A better way to code" by the creator of D3](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
+
+[Reference cells in markdown](https://stackoverflow.com/questions/28080066/how-to-reference-a-ipython-notebook-cell-in-markdown)
+
+Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on Jupyter and Python](http://nbviewer.jupyter.org/github/profjsb/python-bootcamp/tree/master/Lectures/)
+
+[Jupyter Modules](https://stackoverflow.com/questions/1031659/ipython-modules)
+
 ### Information Visualization
 
-Use [Color brewer](http://colorbrewer2.org) to select your color schemes.
+[Color brewer](http://colorbrewer2.org) to select your color schemes.
 
 [Basics](https://eagereyes.org/section/basics) you should know.
 
