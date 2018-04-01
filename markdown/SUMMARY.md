@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Quickstart](quickstart.md)
-* [Preface](Introduction.md)
+* [Preface](introduction.md)
 * Philosophy
     * [Goals of the project](goals.md)
     * [Sofware tools - Eat your own dogfood](tools1.md)
@@ -17,7 +17,7 @@
     * [Bug Reporting](bug-reporting.md)
     * [Troubleshooting](troubleshooting.md)
 * [Information Visualization](infovis.md)
-    * Plotting
+    * [Plotting](plotting.md)
     * [Audio](audio.md)
     * [Animations](animation.md)
     * [Widgets for interactivity](widgets.md) 
