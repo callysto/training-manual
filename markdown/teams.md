@@ -38,7 +38,7 @@ Follow these steps to access JIRA for the first time:
 
 NB: this assumes that your account was already added to JIRA. If not, please contact your PIMS leader or someone on the [Callysto Slack workspace](https://cancode-collaboration.slack.com).
 
-### Sprint Process
+## Sprint Process
 
 The agile process employed by Callysto involves meetings:
 * **Sprint Planning** (1 hour bi-weekly usually on Monday)

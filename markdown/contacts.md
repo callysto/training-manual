@@ -1,4 +1,4 @@
-### Contacts
+# Contacts
 
 [Developer Slack Channel](http://cancode-collaboration.slack.com)
 
@@ -6,7 +6,7 @@ Lead Developer, India Heisz india@pims.math.ca
 + general inquiries
 + help with code
 + questions about the project
-+ mathbox questions 
++ mathbox questions
 + wrote sections of the training manual, feel free to suggest additions
 
 D3 Programmer, Eric Easthope eric.easthope@me.com

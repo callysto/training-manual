@@ -21,4 +21,4 @@ Ask questions throughout your document to **keep the student engaged** and think
 Summarize your notebook. **Reiterate** the lesson and important takeaways.   
 
 
-##### Does your notebook contain all these items? If not be sure to add them. 
+##### Does your notebook contain all these items? If not be sure to add them.

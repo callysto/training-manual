@@ -1,30 +1,29 @@
-
-## Using Widgets
+# Using Widgets
 
 Widgets are interactive objects on the notebook: buttons, check boxes, sliders and drop-down menus that allow the user to control actions in the notebook in a simple "point-and-click" methods.
 
 Widgets are a quick way to get interactivity in your Jupyter displays. You can read more about them here:
 [Widget notes](http://ipywidgets.readthedocs.io/en/latest/examples/Widget%20Basics.html)
 
-Jupyter has its own version of widgets, based on iPython widgets. We use the **interact** command to access them. 
+Jupyter has its own version of widgets, based on iPython widgets. We use the **interact** command to access them.
 
-Unfortunately, I can't seem to get this to show up in the Markdown files of this eBook. So you will have to experiment yourself in Jupyter, or read the reference above to see them live. 
+Unfortunately, I can't seem to get this to show up in the Markdown files of this eBook. So you will have to experiment yourself in Jupyter, or read the reference above to see them live.
 
 
-To get started, we import the **interact** function from the **ipywidgets** module. 
+To get started, we import the **interact** function from the **ipywidgets** module.
 
 
 ```python
 from ipywidgets import interact
 ```
 
-### Basic structure
+## Basic Structure
 
-A widget is something you see on the computer screen that you click on, or move with the computer mouse, or enter text and data. It then does something. 
+A widget is something you see on the computer screen that you click on, or move with the computer mouse, or enter text and data. It then does something.
 
-The key is to define a function that that will do that "something." 
+The key is to define a function that that will do that "something."
 
-Here is a really simple function, it just returns whatever is input to it. 
+Here is a really simple function, it just returns whatever is input to it.
 
 
 ```python
@@ -32,12 +31,12 @@ def f(x):
     return x
 ```
 
-Notice the argument of the function is called **x**. We will use this same **x** when calling up the interact command. 
+Notice the argument of the function is called **x**. We will use this same **x** when calling up the interact command.
 
 
 **Next:** We create the widgets by calling the **interact** function, using an argument type for **x**. The choice of type of data **x** will automatically select wheter we get a slider, check box, text entry boxes, etc.
 
-Here are a few examples. **Note:** It is useful to end the function call with a semicolon, to suppress useless output. 
+Here are a few examples. **Note:** It is useful to end the function call with a semicolon, to suppress useless output.
 
 
 ```python
@@ -50,7 +49,7 @@ interact(f,x=(0,10));  # a slider with integer outputs
 
 
 ```python
-interact(f,x=(0.0,10.0)); # a slider with floating point outputs 
+interact(f,x=(0.0,10.0)); # a slider with floating point outputs
 ```
 
 
@@ -84,7 +83,7 @@ interact(f, x={'One': 1, 'Two': 2, 'Three': 3, 'Forty four': 44}); # a drop-down
     1
 
 
-## Using widgets in plotting
+# Using Widgets in Plotting
 
 Now let's do some more interesting examples where we get the widget to plot something interesting.
 
@@ -97,7 +96,7 @@ from numpy import *
 from matplotlib.pyplot import *
 ```
 
-First we define the update function which will plot something interesting for us. In this case we plot the power function $$f(x) = x^k$$ for various values of $k$. We set a range of values from 0 to 1 to plot. 
+First we define the update function which will plot something interesting for us. In this case we plot the power function $$f(x) = x^k$$ for various values of $k$. We set a range of values from 0 to 1 to plot.
 
 The **show** command in the function is important, to get the plot to display.
 
@@ -148,7 +147,7 @@ interact(plot_sine,A=(0,10), f=(1,10), phi=(0,2*pi));
 ![png](images/widgets_sine.png)
 
 
-## Other graphics
+# Other Graphics
 
 You are not limited to simple 2D plots. The widgets can control more interesting graphics, as in this network example. This come from the site  [github.com/jupyter-widgets/ipywidgets](https://github.com/jupyter-widgets/ipywidgets)
 

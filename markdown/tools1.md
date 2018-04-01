@@ -1,23 +1,18 @@
-### 5. Software tools - Eat your own dogfood
+# Software Tools - Eat Your Own Dogfood
 
-"Eat your own dogfood" means that, as developers, we should be using the same tools we are developing for our clients. (The slogan originates with Microsoft.) 
+"Eat your own dogfood" means that, as developers, we should be using the same tools we are developing for our clients. (The slogan originates with Microsoft.)
 
-The tools we want teachers and students to use are:
-
-- Jupyter notebooks, accessed on the [hub](https://hub.callysto.ca/)
-- with Python, Markdown, and HTML/Javascript for coding
+For the Callysto project, the tools we want Callysto creators and developers to use are:
+* Jupyter notebooks, accessed on the [hub](https://hub.callysto.ca/).
+* Python, Markdown, and HTML/Javascript programming languages for coding.
 
 The advantages of using our our own tools are manifold:
+* Content will work as expected across platforms.
+* Machine independent performance.
+* Universal development environment.
+* Single platform to maintain.
 
-- the content you write will work as expected for the clients
-- the performance you see will be the same for the client
-- the developer teams will have a uniform environment to create in
-- the IT team has only one uniform plaform to maintain for many teams
-
-Some disadvantages include:
-
-- developers need constant, high quality internet access
-- the IT teams needs to keep the server up and running with high reliability (please report server bugs!)
-- some of the cool things you can do on your own laptop may break on the server-client model
-- we want to limit imports of obscure external libraries, which limits what we can do
-- less opportunity to customize your Jupyter experience
+However, some of the disadvantages of this approach include:
+* Constant internet access is required.
+* Server hosting the [hub](https://hub.callysto.ca/) needs to be constantly available.
+* Packages you have locally will need to be installed on the [hub](https://hub.callysto.ca/).

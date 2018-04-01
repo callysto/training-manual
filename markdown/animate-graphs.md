@@ -1,3 +1,5 @@
+# HTML5 Animation of Graphs
+
 We can use html5 for animation, as suggested in this web page: http://louistiao.me/posts/notebooks/embedding-matplotlib-animations-in-jupyter-notebooks/
 
 This seems to be the modern way to do animation in Python.

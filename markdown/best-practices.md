@@ -1,24 +1,24 @@
-### Best practices for code development
+# Best Practices for Code Development
 
-#### Inherited Best Practices
+## Inherited Best Practices
 
 We should attempt to follow the coding practices of the Python community as closely as possible. The folks who've taken the time to develop them have thought much more than any of us about what makes Python code easier to read. Assuming the majority of Python code outside Callysto also follows the community's style guide, this will also make outside resources easier to use.
 
 [PEP 8](http://pep8.org) is considered the de-facto style guide of the Python community. Note that one of the first things it talks about is the importance of being willing to break the rules. This may be of special importance to this project, as we are not looking to teach Python so much as teach computational thinking, and sometimes what is natural and idiomatic in a particular language is just plain weird compared to the majority of other languages. Still, we should think hard about deviations from [PEP 8](http://pep8.org) and note them here.
 
-#### Following What's Already There
+## Following What's Already There
 
-A simple, but effective, way to make sure you're following these coding guidelines is to first take a look at existing content and follow the style of that. If you notice something about the style that seems odd to you, that may be a good time to review these guidelines and/or the underlying [PEP 8](http://pep8.org) guidelines. In doing this, you may find that something in the repository isn't following these guidelines. 
+A simple, but effective, way to make sure you're following these coding guidelines is to first take a look at existing content and follow the style of that. If you notice something about the style that seems odd to you, that may be a good time to review these guidelines and/or the underlying [PEP 8](http://pep8.org) guidelines. In doing this, you may find that something in the repository isn't following these guidelines.
 
 This will almost certainly happen with many people contributing code and as certain coding practices are modified. This section of the training manual won't assume the way your team is working. You may have an issue log that's kept to address later, you may have a single person in charge of the notebook that you inform, or if there's an appropriate Git process in place, you may be able to submit your own change and have it merged.
 
-#### Making Changes
+## Making Changes
 
 Anyone should feel comfortable with suggesting changes to these best practices, as we will all likely discover some important and necessary ones along the way. Conforming to [PEP 8](http://pep8.org) when there's not a compelling reason to deviate will help avoid purely stylistic arguments. As the project gains momentum and more code, changes will be harder, so the sooner we discover any major changes we want to make, the better.
 
 *Note:* If you're used to another language or following another style guide, it's natural for some things to feel awkward. This, in itself, isn't a great argument for a change to these guidelines. It's likely different things will feel awkward for everyone. When suggesting a change, be sure to consider the costs and benefits of making it. The more objective the argument you can make, the better its chances (provided it's also a good argument). But let's not let this stuff get out of control, either. At the end of the day, we should be spending most of our time actually writing code, not arguing over best practices.
 
-#### Consistent Name Spaces
+## Consistent Name Spaces
 
 When a module is imported by Python, the functions within it still need to be prefixed with the module's name. So, for example, a module called "fizz" with a function called "buzz" would be used in the following way:
 
@@ -30,7 +30,7 @@ fizz.buzz()
 
 This is called namespacing and helps to avoid conflicts when functions are named similarly. While namespacing helps avoid conflicts, it can also make Python code harder to read when overused and when the module names themselves are long. There are variations of the `import` statement that can deal with these cases.
 
-##### Importing Using Local Names
+### Importing Using Local Names
 
 A common variation used with certain popular packages is to create a shorter local name. For example, the `numpy` package is often imported like this:
 
@@ -40,11 +40,11 @@ import numpy as np
 x = np.array([2,3,1,0])
 ```
 
-Aliasing modules like this is good practice when those modules are given the same local names by the community surrounding them. Numpy is a great example of this. 
+Aliasing modules like this is good practice when those modules are given the same local names by the community surrounding them. Numpy is a great example of this.
 
 You should avoid defining your own local names. If there is a module without a community defined local name that you feel strongly should have one within our notebooks, make sure to bring it up with your fellow developers and team lead. If it is adopted, it will be something we'll want to do consistently in other modules within the project.
 
-##### Importing From
+### Importing From
 
 Functions (or submodules) that are used very often within a notebook can be specifically imported without a namespace:
 
@@ -59,7 +59,7 @@ area = pi * radius**2
 
 There isn't a perfect rule for when and when not to do this, but here are some things to consider:
 
-1. Does the function name tell someone reading the code enough about what it does without the module name? If you're writing a math notebook, using `cos` is probably pretty self explanatory, and there's no real need to remind people that it's from the math package by forcing them to read and write `math.cos`. 
+1. Does the function name tell someone reading the code enough about what it does without the module name? If you're writing a math notebook, using `cos` is probably pretty self explanatory, and there's no real need to remind people that it's from the math package by forcing them to read and write `math.cos`.
 
 2. Does the module name help in understanding what the function does? For example, not only would `import join from os.path` conflict with the basic array `join` function, but it would also mislead readers as to the true purpose of `os.path.join`. The true purpose is to join path components with the path separator, so leaving at least enough of the module path to reflect this makes for clearer code.
 
@@ -67,7 +67,7 @@ There isn't a perfect rule for when and when not to do this, but here are some t
 
 Two other variations worth noting:
 
-##### Importing From, with Local Names
+### Importing From, with Local Names
 
 ```python
 from math import cos as cosine
@@ -75,7 +75,7 @@ from math import cos as cosine
 
 This should probably be avoided in most cases, especially with standard Python libraries. The standard names will be easy to search for help on outside of Callysto. The local names you might make up won't. However, there are cases where this may be useful. For example, if you find a rather obscure library with poorly named functions that nevertheless has one function (also poorly named) that's really, really useful, importing it this way would likely improve the readability of your code.
 
-##### Wildcard Imports
+### Wildcard Imports
 
 ```python
 from math import *
@@ -83,7 +83,7 @@ from math import *
 
 As noted in [PEP 8](http://pep8.org), you really shouldn't be doing this, as it's really easy to polute your current namespace and wind up with weird bugs due to unintended function replacements. [PEP 8](http://pep8.org) notes some exceptions, and there's one exception noted below for our purposes.
 
-##### Local Names of Popular Packages
+### Local Names of Popular Packages
 
 Here's a list of packages that we know of along with the local names you should use (based on local names used by the communities surrounding them) when importing and referencing them.
 
@@ -97,7 +97,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 ```
 
-#### Managing Complexity
+## Managing Complexity
 
 When developing a module, spend some time considering what aspects of computational thinking you're actually trying to demonstrate and whether or not you can assume any prerequisite knowledge in various programming concepts.
 
@@ -174,7 +174,7 @@ from notebook_code.b import *
 
 This is really as complicated as things should ever get for most notebooks. And remember, you may not even need helper code. If your notebook code is simple enough and/or you can assume advanced users, you may not have much reason to do anything outside of it.
 
-##### Helper Packages
+### Helper Packages
 
 There likely won't be a need for more than one support file per notebook (or any at all), so we'll delay talking about more complex setups until they're needed. However, if we find we're extracting the same functions over and over again, this might be a sign that a separate package should be maintained.
 
@@ -182,7 +182,7 @@ This will involve some communication with your fellow developers, and it wouldn'
 
 Please don't start writing any packages on your own. We'll want to coordinate anything like this and consider the maintenance implications of having to roll out updates to packages used by many notebooks. However, please do bring up opportunities if you spot them.
 
-#### Folders
+## Folders
 
 If your demo has many file associated to it (images,source code, etc.) it is best to keep them all organized into folder and subfolders, so users know what "package" to copy. Here's a suggested structure. You don't have to use every folder (if you don't store or use any data, for example, you won't need a "data" folder), but following similar names will help people navigate when using other notebooks:
 
@@ -211,7 +211,7 @@ Use the `.gitignore` file in `data` to ignore any files that you don't intend to
 
 There's some [more information](https://help.github.com/articles/ignoring-files/) on ignoring files from the good folks at GitHub.
 
-#### Keeping it Simple
+## Keeping it Simple
 
 Consider the following example of two ways of creating an array of integers:
 
@@ -236,15 +236,15 @@ for a in y:
     x.append(a)
 ```
 
-#### Comments and readability
+## Comments and readability
 
 [PEP 8](http://pep8.org) has some great guidelines for comments in general. These guidelines are especially useful in any supporting python files.
 
-But inside notebooks, also consider the other tool at your disposal: the markdown blocks themselves. If you've explained what you're doing in a code block in the markdown above it, there's no need to repeat that explanation in an actual code comment. With longer pieces of code, when you find yourself about to write a comment, consider whether it would be better to actually create another markdown block and continue your code below that. 
+But inside notebooks, also consider the other tool at your disposal: the markdown blocks themselves. If you've explained what you're doing in a code block in the markdown above it, there's no need to repeat that explanation in an actual code comment. With longer pieces of code, when you find yourself about to write a comment, consider whether it would be better to actually create another markdown block and continue your code below that.
 
 Rule of thumb: the more important a particular section of code is to understand, the more likely it should be its own code block.
 
-Good variable names, abstractions, modularization, and data structures are just as important for readability as comments. 
+Good variable names, abstractions, modularization, and data structures are just as important for readability as comments.
 
 Example: Which is easier to understand?
 
@@ -291,8 +291,8 @@ odd_sum = sum(odd_nums)
 
 However, it's important to note that passing functions into functions is a more advanced programming concept, and the improved readability here relies heavily on the understanding of this concept.
 
-#### Packages
+## Packages
 
-Be careful when installing Python packages. We don't want to have any install requirements for end users of these notebooks, so if there's a package you really need, this will eventually have to be communicated to the maintainers of hub.callysto.ca. 
+Be careful when installing Python packages. We don't want to have any install requirements for end users of these notebooks, so if there's a package you really need, this will eventually have to be communicated to the maintainers of hub.callysto.ca.
 
 Keep a list of any packages you install this way and consider how much you really need it. How much code would you have to write in a supporting python file to do what the library is doing for you? Reinventing the wheel carries a cost (you likely haven't thought as much about the problem as the maintainers of an existing package created to solve it), but external dependences have their own costs.

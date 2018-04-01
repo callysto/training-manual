@@ -1,17 +1,17 @@
-## Troubleshooting
+# Troubleshooting
 
 Steps to go through if it is not working:
 + Google.
 + Turn the kernel off and then on again.
 + Try incognito mode. Jupyter is nicer in incognito mode because browser caches will sometimes cause issues, especially the way Chrome does browser caching. Keep in mind however that the final notebook will need to be fully operational outside of incognito/private browsing.
-+ Try a different browser. 
++ Try a different browser.
 + Use the "inspect" tool built into your browser (ctrl-shift-i for Chrome).
 + Try messaging the slack, you will probably get a fast answer there and your fellow developers can help you.
-+ If you are still stuck reach out to the appropriate person. 
++ If you are still stuck reach out to the appropriate person.
 
-### Specific Issues
+## Specific Issues
 
-If you are using JavaScript `require` try switching it to `requirejs`. `require` sometimes stores JS in the cell's metadata which persists even after a restart and cache clear. `requirejs` *seems to* avoid this issue. 
+If you are using JavaScript `require` try switching it to `requirejs`. `require` sometimes stores JS in the cell's metadata which persists even after a restart and cache clear. `requirejs` *seems to* avoid this issue.
 
 ---
 

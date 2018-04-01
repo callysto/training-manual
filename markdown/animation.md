@@ -1,4 +1,6 @@
-All of our demos should involve snazzy visuals. As an example, here is a D3 animation with colourful balls to chase with your mouse. If you see nothing,  click on "Reload" in your browser.
+# Animations
+
+All of our demos should involve snazzy, eye-catching visuals. As an example, here is a D3 animation with colourful balls to chase with your mouse. If you see nothing,  click on "Reload" in your browser.
 
 (The animation does not show up in the Gitbook Editor, only in the published version.)
 

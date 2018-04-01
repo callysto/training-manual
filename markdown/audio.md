@@ -51,11 +51,6 @@ plot(freqs,fsig) # amplitude versus frequency
 [<matplotlib.lines.Line2D at 0x7fdb59e82358>]
 
 
-
-
-![png](P_Auoutput_5_1.png)
-
-
 By zooming in on the relevant part of the signal, we can see the presence of energy at the two frequencies of 440 Hz and 442 Hz.
 
 
@@ -67,11 +62,6 @@ plot(freqs[2100:2300],fsig[2100:2300])
 
 
 [<matplotlib.lines.Line2D at 0x7fdb581e5940>]
-
-
-
-
-![png](P_Auoutput_7_1.png)
 
 
 Some note on audio in the computer.

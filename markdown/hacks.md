@@ -1,4 +1,4 @@
-### 14. Special topic: Hacks to input html code and Javascript
+# Hacks to Input HTML Code and Javascript
 
 The Jupyter server and iPython can easily display html code that is in a file. The commands for this are simply to import IFrame and then call it with the file name, and dimensions for the display:
 
@@ -16,7 +16,7 @@ with open('MovingBalls.template','r') as f:
     s=f.read()
     with open('mb.html','w') as g:
         g.write(s)
-    
+
 IFrame('mb.html',500,500)
 
 ```

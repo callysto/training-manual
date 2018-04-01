@@ -1,4 +1,4 @@
-#Goals of the Callysto Project
+# Goals of the Callysto Project
 
 The immediate goal for the Callysto project is to create publicly accessible Jupyter notebooks (and other online resources) that demonstrate the merging of computational thinking into the K-12 curriculum for Alberta, BC and eventually across Canada.
 

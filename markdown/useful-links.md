@@ -1,15 +1,16 @@
-## Useful Links
+# Useful Links
 Feel free to add your own links to the list! Just push your suggested additions.
 
-### Educational resources
+## Educational Resources
+These resources are very important as the curriculum modules chosen for development are from the current K-12 Alberta curriculum. Although Alberta is currently undergoing a curriculum review, the modules selected for development are core learning concepts (e.g. functions in math) that will apply to future curriculums. If you want more information about the curriculum module you are developing, please visit the links below.
 
-[Alberta Curriculum for K-12](http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en) 
+[Alberta Curriculum for K-12](http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en)
 
 [Parent expectations, Alberta](http://www.learnalberta.ca/content/mychildslearning/index.html)
 
-[Question about using Jupyter notebooks at school](https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc)
+## Educational Resources for Children and Teachers
+These resources were suggested to us by a group of K-12 teacher advisors. They contain information that is relevant to the development of Jupyter notebooks for the classroom.
 
-### Educational resources for children and teachers
 [Jupyter for kids](https://github.com/mikkokotila/jupyter4kids)
 
 [How To Teach Python To Kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
@@ -20,18 +21,21 @@ Feel free to add your own links to the list! Just push your suggested additions.
 
 [Book “Doing Math with Python”](https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/)
 
-### Notebook examples
+## Notebook Examples
+### Jupyter in the Classroom
+[Question about using Jupyter notebooks at school](https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc)
 
 [Example notebook for grade 6 Math](https://github.com/misterhay/Grade6Math)
 
-[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology) 
+### Interesting Jupyter Notebooks with Classroom Relevance
+[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology)
 
-[More interesting Jupyter notebooks](http://nb.bianp.net/sort/views/) 
+[More interesting Jupyter notebooks](http://nb.bianp.net/sort/views/)
 
-### Coding
+## Coding
 [Textbooks and conversion](https://stackoverflow.com/questions/23292242/converting-to-not-from-ipython-notebook-format)
 
-[Useful Blog on Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) 
+[Useful Blog on Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 
 ["A better way to code" by the creator of D3](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
 
@@ -43,7 +47,7 @@ Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on
 
 [Jupyter Modules](https://stackoverflow.com/questions/1031659/ipython-modules)
 
-#### Learn Python
+### Learn Python
 
 [Learn Python with Python Challenge](http://www.pythonchallenge.com/)
 
@@ -51,9 +55,9 @@ Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on
 
 [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/style/)
 
-[Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) 
+[Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html)
 
-### Information Visualization
+## Information Visualization
 
 [Color brewer](http://colorbrewer2.org) to select your color schemes.
 
@@ -65,7 +69,7 @@ Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on
 
 [A gallery](http://conceptviz.github.io/#/e30=) of concept visualizations.
 
-### Databases
+## Databases
 Please only list databases we are actively using or plan to use.
 
 [Authorized learning resources database, Alberta](http://www.learnalberta.ca/alrdb.aspx#/)
