@@ -6,7 +6,6 @@
 * Philosophy
     * [Goals of the project](goals.md)
     * [Sofware tools - Eat your own dogfood](tools1.md)
-    * [Software tools - Roll your own](tools2.md)
 * Notebook Design
     * [Notebook format](NotebookFormat.md)
     * [Template](notebook_template.md)  
