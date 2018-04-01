@@ -60,6 +60,8 @@ Please see the [Notebook Template](notebook_template.md) and [Notebook Format](N
 ## Contributing Notebooks
 Once a notebook/content has been developed, it should be pushed to GitHub to share with the team and to put under for version control. In order to ensure notebooks are working correctly, any notebooks initially created should be first committed for review in the Callysto-development repository (exact repo name to be confirmed).
 
+**NB**: please ensure that you `Shutdown` any running notebooks (click on "Running" tab from Jupyter web interface) before committing your work. This will avoid any odd Git issues that result from running the `bin/git-nb-tools` mentioned above.  
+
 ### Using GitHub
 If you are new GitHub, here are a couple of guides to get started.
 

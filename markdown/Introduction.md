@@ -2,13 +2,22 @@
 
 The Callysto project is a collaboration between the Pacific Institute of Mathematical Sciences (PIMS) and Cybera Inc and is funded by the Government of Canada through its CanCode program. Our overall goal is to bring elements of computational thinking into the K-12 curriculum by developing showcase curriculum modules using Jupyter technology and training K-12 teachers to use these modules in the classroom.
 
-### Why Callysto?
+## The Purpose of This Guide
+
+This training guide is meant to be an all-in-one resource for Callysto creators and developers to get started on building content for the Callysto project.
+
+### Why **Callysto**?
 
 The open-source Jupyter technology is an important aspect of how we are delivering the curriculum materials we are developing. [Callysto](https://en.wikipedia.org/wiki/Callisto_(moon) is a moon of Jupiter and the `y` is our way of aligning ourselves to the larger [Project Jupyter](http://jupyter.org/).
 
-### The Purpose of This Guide
+### Developing for the Callysto Project
 
-This training guide is meant to be an all-in-one resource for Callysto creators and developers to get started on building content for the Callysto project.
+Callysto development teams will consist of 2 to 6 people:
+* a university (PIMS) professor.
+* 1 - 4 student developers (Callysto creators and developers).
+* an external K-12 teacher (or subject matter expert) advisor.
+
+Callysto development teams will commit to and create selected curriculum content modules in Jupyter notebooks during iterative 2-week sprint periods. Once created, our external subject matter expert advisors will help to review the created content and provide any feedback for the development team.
 
 ## Things to Keep in Mind While You're Developing Content
    Every time you create a notebook for the Callysto project, it is of the utmost importance that you keep your target audience in mind. As each notebook may be aimed at a different grade/experience level, you will need to be consciously aware of that during the notebook creation process. If your notebook is meant to teach content from the fifth grade, then tailor your introductions in such a way that someone in the fifth grade can understand. Unfortunately that is not an easy task, but it is of vial importance not to "Principal Skinner" your notebooks (YouTube link below):
@@ -83,7 +92,7 @@ Where that's certainly a less interesting snippet of code, it's a lot more appro
 
 With all that said: if you can create an intuitive and interesting interactive widget/visualization that requires some more "advanced" coding, you are absolutely free to do that. A lot of the time more interactive widgets and functionality will make explaining what you hope to teach many times easier. In this case take advantage of the ability to hide blocks of code and only give the student access to the widget itself.
 
-## Conclusion/Take Away
+### Conclusion/Take Away
 
 When you're creating notebooks for the Callysto project, you need to be hyper aware of the skill set of your audience. There will definitely be occasions where you can get more involved in the code and the explanations in cases like high school content. Even so, a lot of the people this content will be used by will have little to no experience with Python or even the subject you're trying to teach. Unfortunately that means you'll likely have to change how you typically develop content from how you normally would. Below we've summarized a few flexible guidelines for you to keep in mind while developing content
 

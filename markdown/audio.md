@@ -1,6 +1,6 @@
 # Audio Generation
 
-With a few lines of code, we can produce sound and play it.
+With a few lines of code, we can produce sound and play it within a Jupyter notebook. Consider incorporating audio components as you're developing a notebook.
 
 We will import a few tools to make this possible, including pylab for plotting and numerical work.
 
@@ -78,7 +78,7 @@ Some note on audio in the computer.
 
 The sound we hear with our ears are the rapid vibrations of air pressure on our eardrums, usually generated from vibrations of some object like a guitar string, drum head, or the vocal cords of a human. These sounds are represented as a function of time. In the computer, we represent this function as a list of numbers, or samples, that indicate the value of the function at a range of time values.
 
-Usually, we sample at uniform time intervals. In the example above, we have 8000 samples per second, for a length of 5 seconds. The Shannon sampling theorem tells us that we need to sample at least as fast as twice the highest frequency that we want to reproduce.
+Usually, we sample at uniform time intervals. In the example above, we have 8000 samples per second, for a length of 5 seconds. The Nyquist-Shannon sampling theorem tells us that we need to sample at least as fast as twice the highest frequency that we want to reproduce.
 
 Humans with exceptional hearing can hear frequencies up to 20,000 Hz (20 kHz). This suggests we should sample at least at 40,000 samples per second for high quality audio. In fact, a compact disk is sampled at 44100 samples per second, and digital audio tapes at 48000 samples per second.
 

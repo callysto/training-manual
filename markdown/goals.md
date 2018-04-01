@@ -30,7 +30,7 @@ Stage 2 Deliverables:
 
 - Deployment and testing of resources with K-12 teachers and students
 - Validation of resources with K-12 teachers and students
-- Workshops for K-12 teachers, and Creators
+- Workshops for K-12 teachers (run with the help of creators and developers)
 - Validation of authoring workflows
 - Validation of K-12 and postsecondary collaboration model
 
@@ -44,5 +44,6 @@ Callysto gains momentum with national and international partners. Teaching and l
 Stage 3 deliverables:
 
 - Deployment and testing of resources with postsecondary instructors and students
+- Computational Thinking assessment and effectiveness study performed by Professor Catherine Adams (University of Alberta)
 - Validation of resources with postsecondary instructors and students
 - Exploration of Callysto toolchain in research and data science activities in postsecondary

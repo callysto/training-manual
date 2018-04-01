@@ -1,33 +1,30 @@
 # Summary
 
 * [Introduction](README.md)
-* [Quickstart](quickstart.md)
-* [Preface](Introduction.md)
+* [Quickstart Guide](quickstart.md)
+* [Preface](introduction.md)
 * Philosophy
-    * [Goals of the project](goals.md)
-    * [Sofware tools - Eat your own dogfood](tools1.md)
-    * [Software tools - Roll your own](tools2.md)
-* Design
+    * [Goals of the Callysto Project](goals.md)
+    * [Development Teams and Sprints](teams.md)
+    * [Software tools - Eat your own dogfood](tools1.md)
+* Notebook Design
     * [Notebook Format](NotebookFormat.md)
     * [Template](notebook_template.md)
-* Tools
-    * [Jupyter Hub](jhub.md)
-    * [Jupyter notebooks](jnb.md)
-    * [Notebook binders, pullers and viewers](nbviewers.md)
-* Teams & Processes
-    * [Team structure](teams.md)
-    * [Bug Reporting](bug-reporting.md)
+* Teams
+    * [Development Teams and Agile Sprints](teams.md)
 * Coding
-    * [Best practices for code development](best-practices.md)
+    * [Best Practices for Code Development](best-practices.md)
     * [Markdown language](markdown.md)
-    * [R coding](r-coding.md)
-* [Special topics](special.md)
-    * [Animations](animation.md)
-    * [Animating graphs](animate-graphs.md)
-    * [Widgets for interactivity](widgets.md)
+    * [Bug Reporting](bug-reporting.md)
+    * [Troubleshooting](troubleshooting.md)
+* [Information Visualization](infovis.md)
+    * [Plotting](plotting.md)
     * [Audio](audio.md)
-    * [Videos](youtube.md)
+    * [Animations](animation.md)
+    * [Widgets for interactivity](widgets.md)
+* Special Topics      
     * [Hacks to input html code and Javascript](hacks.md)
+    * [Notebook binders, pullers and viewers](nbviewers.md)
 * [Online resources](internal-links.md)
     * [Useful links](useful-links.md)
     * [Contacts](contacts.md)
