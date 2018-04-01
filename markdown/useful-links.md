@@ -1,50 +1,73 @@
+## Useful Links
+Feel free to add your own links to the list! Just push your suggested additions.
+
 ### Educational resources
 
-http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en Curriculum for K-12
+[Alberta Curriculum for K-12](http://www.learnalberta.ca/ProgramsOfStudy.aspx?lang=en) 
 
-http://www.2learn.ca/kids/ -Interactive resources for teachers (grades 4-6)
+[Parent expectations, Alberta](http://www.learnalberta.ca/content/mychildslearning/index.html)
 
-http://www.learnalberta.ca/Home.aspx - Resources for teachers password needed)
+[Question about using Jupyter notebooks at school](https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc)
 
-http://www.learnalberta.ca/content/mychildslearning/index.html - Parent resources
+### Educational resources for children and teachers
+[Jupyter for kids](https://github.com/mikkokotila/jupyter4kids)
 
-http://castlerockresearch.com/snap-student-notes-and-problems-workbooks/ 
+[How To Teach Python To Kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
 
-http://www.learnalberta.ca/alrdb.aspx#/ - Authorized learning resources database
+[Usborn book Python for kids](https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/)
 
-https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/ - Book “Doing Math with Python”
+[Interactive resources for teachers (grades 4-6)](http://www.2learn.ca/kids/)
 
-https://open.alberta.ca/dataset?tags=Grade+10 - Alberta open data (school related)
-
-Online learning resources - mathletics, prodigy, raz-kids, lexia.
-
-https://www.khanacademy.org - Videos on a wide variety of subjects, in some cases even broken down by grade, that may give inspiration for developing interactive ways of exploring a concept.
-
-### Python for kids
-https://github.com/mikkokotila/jupyter4kids
-
-http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/
+[Book “Doing Math with Python”](https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/)
 
 ### Notebook examples
 
-https://github.com/misterhay/Grade6Math - Example notebook for grade 6 Math
+[Example notebook for grade 6 Math](https://github.com/misterhay/Grade6Math)
 
-https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology - Gallery of interesting Jupyter notebooks
+[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology) 
 
-https://groups.google.com/forum/#!topic/jupyter-education/5C3ECsKdlWc  - Question about using Jupyter notebooks at school
+[More interesting Jupyter notebooks](http://nb.bianp.net/sort/views/) 
 
-http://nb.bianp.net/sort/views/ - More interesting Jupyter notebooks
+### Coding
+[Textbooks and conversion](https://stackoverflow.com/questions/23292242/converting-to-not-from-ipython-notebook-format)
 
-### Python
+[Useful Blog on Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) 
 
-http://www.learnpython.org/en/  - Interactive Python tutorials
+["A better way to code" by the creator of D3](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
 
-https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/ - Usborn book Python for kids
+[Reference cells in markdown](https://stackoverflow.com/questions/28080066/how-to-reference-a-ipython-notebook-cell-in-markdown)
 
-http://docs.python-guide.org/en/latest/writing/style/ - The Hitchhiker's Guide to Python
+[Javascript to Python Communication](http://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/)
 
-http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html - Python interactive widgets
+Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on Jupyter and Python](http://nbviewer.jupyter.org/github/profjsb/python-bootcamp/tree/master/Lectures/)
 
-### Visualization
+[Jupyter Modules](https://stackoverflow.com/questions/1031659/ipython-modules)
 
-https://www.youtube.com/watch?v=RG_BKQRbJZw - Some basics on when/why to use certain types of visualizations
+#### Learn Python
+
+[Learn Python with Python Challenge](http://www.pythonchallenge.com/)
+
+[Interactive Python tutorials](http://www.learnpython.org/en/)
+
+[The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/writing/style/)
+
+[Python interactive widgets](http://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) 
+
+### Information Visualization
+
+[Color brewer](http://colorbrewer2.org) to select your color schemes.
+
+[Basics](https://eagereyes.org/section/basics) you should know.
+
+[Further reading](https://eagereyes.org/section/techniques) on infovis techniques.
+
+[Perceptual edge](http://www.perceptualedge.com/) is a treasure trove of infovis.
+
+[A gallery](http://conceptviz.github.io/#/e30=) of concept visualizations.
+
+### Databases
+Please only list databases we are actively using or plan to use.
+
+[Authorized learning resources database, Alberta](http://www.learnalberta.ca/alrdb.aspx#/)
+
+[Alberta open data (school related)](https://open.alberta.ca/dataset?tags=Grade+10)
