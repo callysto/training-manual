@@ -296,3 +296,17 @@ However, it's important to note that passing functions into functions is a more 
 Be careful when installing Python packages. We don't want to have any install requirements for end users of these notebooks, so if there's a package you really need, this will eventually have to be communicated to the maintainers of hub.callysto.ca.
 
 Keep a list of any packages you install this way and consider how much you really need it. How much code would you have to write in a supporting python file to do what the library is doing for you? Reinventing the wheel carries a cost (you likely haven't thought as much about the problem as the maintainers of an existing package created to solve it), but external dependences have their own costs.
+
+### Installing packages on hub.callysto.ca
+In the case where certain libraries are not installed when running or developing notebooks, users may install packages in their userspace via:
+
+```
+pip install PACKAGE_NAME --user
+```  
+in a terminal session or  
+```
+!pip install PACKAGE_NAME --user
+```
+in a notebook code block.
+
+When installing packages in the userspace, it should be noted which are added in order to subsequently have the package installed system-wide (if it is a commonly used package). Alternatively, the notebook or a setup file should be configured to automatically install the packages on a user by user basis.
