@@ -7,8 +7,8 @@
     * [Goals of the Callysto Project](goals.md)
     * [Software tools - Eat Your Own Dogfood](tools1.md)
 * Notebook Design
-    * [Notebook Format](NotebookFormat.md)
-    * [Template](notebook_template.md)
+    * [Notebook Format](notebook-format.md)
+    * [Template](notebook-template.md)
 * [Development Team Structure and Process](teams.md)
 * Coding
     * [Best Practices for Code Development](best-practices.md)
