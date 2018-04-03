@@ -28,21 +28,31 @@ Information visualization is a key part of the notebooks. We want to bring visua
 
 ##### Limitations
 + Computational
-    + Primarily the notebooks use remote resources from the hub to run their code but sometimes use the user's local resources. 
-[//]: # (More on this [here](****) and [here](*****))
+    + Primarily the notebooks use remote resources from the hub to run their code but sometimes use the user's local resources. Try to run most of the heavy processing in Python and then pass it to the visualization library of your choice. 
 + Perceptual/Cognitive
+    + Be sure to uphold accessibility standards! This is especially important in the context of this project, we do not want any children to be unecessarily excluded or disadvantaged.
+    + Generally avoid putting too much clutter on your graph, the perceptual system has limited capacity. If any aspects of your visualization move actively, you should expect those to distract from the rest of your visualization.
 + Display
     + If you are creating visualizations with small details the display limits will be a factor. Many schools use old low resolution screens, don't assume it will look the same way it does on your expensive work computer. Avoid fine grained details.
     + Not all displays are callibrated corectly, if you use many colours which have to be discriminated from each other, be sure to use [color brewer](http://colorbrewer2.org) to select your colour scheme.
+
+##### Visual Encoding Principles
+![Analyzing visual Encoding Via Marks and Channels](https://github.com/callysto/training-manual/blob/master/markdown/images/1B0DD5C1-0E5F-4FD6-A301-E5ED0F82AD72.jpeg)
+
+![Channels, Matching Expressiveness](https://github.com/callysto/training-manual/blob/master/markdown/images/CFECE1BF-E281-4A68-B9B4-44B092A06A4D.jpeg)
+
+Please avoid trying to encode information as 3D volume eor curvature, these are difficult for people to process.
 
 ##### Types of Data
 1. Quantitative
 2. Ordered 
 3. Categorical
 
-Special note: relational data represented by graphs, networks, trees
+Special note: Although relational data (represented by graphs, networks, trees) is a subset of the above three, it requires different visualization strategies.
 
-##### Visual Encoding Principles
+![Types of Data](https://github.com/callysto/training-manual/blob/master/markdown/images/A3CC2608-6721-4662-AB78-8EF68B7A2A53.jpeg)
+
+The strategies at the top of the lists have been shown to be the most effective for visualizing that type of data. Strategies near the bottom of the lists should be avoided. For example hue is great to use for categorical data, shape is less ideal. 
 
 ### Practical Tips
 Disclaimer: these are generalizations, use your own discretion. There are many situations where you should ignore these guidelines.
