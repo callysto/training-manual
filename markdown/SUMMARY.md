@@ -11,7 +11,11 @@
     * [Template](notebook-template.md)
 * [Development Team Structure and Process](teams.md)
 * Coding
+    * [Jupyter, Under the Hood](under-the-hood.md)
+        * [Notebook Binders, Pullers and Viewers](nbviewers.md)
     * [Best Practices for Code Development](best-practices.md)
+    * [Coding Mistakes to Avoid](bad-practices.md)
+        * [Hacks to Input HTML Code and Javascript](hacks.md)   
     * [Markdown Language](markdown.md)
     * [Bug Reporting](bug-reporting.md)
     * [Troubleshooting](troubleshooting.md)
@@ -20,10 +24,7 @@
     * [Audio Generation](audio.md)
     * [Animations - D3.js](animation.md)
     * [Animations - HTML5](animate-graphs.md)
-    * [Widgets for Interactivity](widgets.md)
-* Special Topics      
-    * [Hacks to Input HTML Code and Javascript](hacks.md)
-    * [Notebook Binders, Pullers and Viewers](nbviewers.md)
+    * [Widgets for Interactivity](widgets.md) 
 * [Online Resources](internal-links.md)
     * [Useful Links](useful-links.md)
     * [Contacts](contacts.md)
