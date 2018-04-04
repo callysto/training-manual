@@ -11,15 +11,17 @@ These resources are very important as the curriculum modules chosen for developm
 ## Educational Resources for Children and Teachers
 These resources were suggested to us by a group of K-12 teacher advisors. They contain information that is relevant to the development of Jupyter notebooks for the classroom.
 
+[Curated collection of educational resources](https://nsdl.oercommons.org) sorted by grade and resource type.
+
 [Jupyter for kids](https://github.com/mikkokotila/jupyter4kids)
 
-[How To Teach Python To Kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
+[How To teach Python To kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
 
-[Usborn book Python for kids](https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/)
+[Usborn book: Python for kids](https://usborne.com/browse-books/catalogue/product/1/11315/coding-for-beginners-using-python/)
 
 [Interactive resources for teachers (grades 4-6)](http://www.2learn.ca/kids/)
 
-[Book “Doing Math with Python”](https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/)
+[Book: Doing Math with Python”](https://www.safaribooksonline.com/library/view/doing-math-with/9781457189999/)
 
 ## Notebook Examples
 ### Jupyter in the Classroom
@@ -28,24 +30,24 @@ These resources were suggested to us by a group of K-12 teacher advisors. They c
 [Example notebook for grade 6 Math](https://github.com/misterhay/Grade6Math)
 
 ### Interesting Jupyter Notebooks with Classroom Relevance
-[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks#mathematics-physics-chemistry-biology)
+[Gallery of interesting Jupyter notebooks](https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks)
 
 [More interesting Jupyter notebooks](http://nb.bianp.net/sort/views/)
 
 ## Coding
 [Textbooks and conversion](https://stackoverflow.com/questions/23292242/converting-to-not-from-ipython-notebook-format)
 
-[Useful Blog on Jupyter Notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+[Useful blog on Jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
 
 ["A better way to code" by the creator of D3](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0)
 
 [Reference cells in markdown](https://stackoverflow.com/questions/28080066/how-to-reference-a-ipython-notebook-cell-in-markdown)
 
-[Javascript to Python Communication](http://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/)
+[Javascript to Python communication](http://jakevdp.github.io/blog/2013/06/01/ipython-notebook-javascript-python-communication/)
 
-Fernando Perez is the creator of Jupyter, he helped write some [lecture notes on Jupyter and Python](http://nbviewer.jupyter.org/github/profjsb/python-bootcamp/tree/master/Lectures/)
+[Lecture notes on Jupyter and Python](http://nbviewer.jupyter.org/github/profjsb/python-bootcamp/tree/master/Lectures/) written in part by Fernando Perez, the creator of Jupyter.
 
-[Jupyter Modules](https://stackoverflow.com/questions/1031659/ipython-modules)
+[Jupyter modules](https://stackoverflow.com/questions/1031659/ipython-modules)
 
 ### Learn Python
 
