@@ -23,11 +23,12 @@ Plot.ly in Jupyter notebooks [tutorial](https://plot.ly/python/ipython-notebook-
 
 [Plot data from a csv](https://plot.ly/python/plot-data-from-csv/()
 
-Sample plot.ly graph:
+Sample plot.ly graph, from a matplotlib plot:
 
 ```!pip install plotly --user;```
 
 ```
+import numpy as np
 import plotly.offline as py
 from plotly.offline import init_notebook_mode, iplot
 import plotly.tools as tls
@@ -37,12 +38,35 @@ from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 init_notebook_mode(connected=True)
 fig = plt.Figure()
 ax = fig.gca()
-x = [-2,0,4,6,7]
-y = [q**2-q+3 for q in x]
+x = np.linspace(-10,10,200)
+y = abs(x)
 ax.plot(x,y)
 canvas = FigureCanvas(fig)
 plotly_fig = tls.mpl_to_plotly(fig)
 py.iplot(plotly_fig)
+```
+
+The same plot using only plotly (preferred):
+```
+import numpy as np
+import plotly.offline as py
+from plotly.offline import init_notebook_mode, iplot
+import plotly.tools as tls
+import matplotlib.pylab as plt
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+
+x = np.linspace(-10,10,200)
+y = abs(x)
+
+# Create a trace
+trace = go.Scatter(
+    x = x,
+    y = y
+)
+
+data = [trace]
+
+py.iplot(data, filename='absValue-plot')
 ```
 
 ## Advanced Plotting
