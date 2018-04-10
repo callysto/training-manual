@@ -17,6 +17,7 @@
     * [Markdown Language](markdown.md)
     * [Notebook Binders, Pullers, and Viewers](nbviewers.md)
     * [Bug Reporting](bug-reporting.md)
+    * [Github Workflow](github-workflow.md)
     * [Troubleshooting](troubleshooting.md)   
 * [Information Visualization](infovis.md)
     * [Plotting](plotting.md)
