@@ -43,6 +43,11 @@ to make sure they’re up to date with the upstream changes and are always ready
 
 This represents "releasable" code. In theory, anyone checking out code from the *master* branch should expect to see the best quality notebook code that we can offer. It won’t necessarily be bug free, but it's free of the bugs we know about (and that are serious enough to block a release).
 
+## Commit messages
+
+Capitalize the first letter, no period. Use the imperative "Fix bug" not "Fixes bug" or "Fixed bug". 
+Include the Jira task identifier in the commit message (not in the file title), for example: "CC-33 add interactivity to the plots". For longer commit message write a short description followed by a blank line and then the longer description. Try to wrap at 72 characters, in Vim this is done with ```:set textwidth=72```. Use the body to explain what and why but not how.
+
 ## Tagging
 
 It’s often helpful to mark a specific commit of the master branch when that commit represents code we know has been "released" and will likely not be continually updated from Github until the next release. This can come in handy when tracking down bug reports that may or may not have been fixed since that release.
