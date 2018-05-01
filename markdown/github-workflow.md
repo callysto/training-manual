@@ -42,11 +42,12 @@ to make sure they’re up to date with the upstream changes and are always ready
 ## Branch: master
 
 This represents "releasable" code. In theory, anyone checking out code from the *master* branch should expect to see the best quality notebook code that we can offer. It won’t necessarily be bug free, but it's free of the bugs we know about (and that are serious enough to block a release).
+Open a pull request to master when you are ready for your code to be reviewed.
 
 ## Commit messages
 
 Capitalize the first letter, no period. Use the imperative "Fix bug" not "Fixes bug" or "Fixed bug". 
-Include the Jira task identifier in the commit message (not in the file title), for example: "CC-33 add interactivity to the plots". For longer commit message write a short description followed by a blank line and then the longer description. Try to wrap at 72 characters, in Vim this is done with ```:set textwidth=72```. Use the body to explain what and why but not how.
+Include the Jira task identifier in the commit message (not in the file title), for example: "CC-33 Add interactivity to the plots". For longer commit message write a short description followed by a blank line and then the longer description. Try to wrap at 72 characters, in Vim this is done with ```:set textwidth=72```. Use the body to explain what and why but not how.
 
 ## Tagging
 
