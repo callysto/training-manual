@@ -39,10 +39,11 @@ git merge staging
 
 to make sure they’re up to date with the upstream changes and are always ready to be merged into *staging*. This will become more important the closer those individual notebook branches get to being integrated into *staging*.
 
+Notebooks will undergo reviews before being added to staging and also while in staging.
+
 ## Branch: master
 
 This represents "releasable" code. In theory, anyone checking out code from the *master* branch should expect to see the best quality notebook code that we can offer. It won’t necessarily be bug free, but it's free of the bugs we know about (and that are serious enough to block a release).
-Open a pull request to master when you are ready for your code to be reviewed.
 
 ## Commit messages
 
