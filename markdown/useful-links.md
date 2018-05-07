@@ -13,6 +13,8 @@ These resources were suggested to us by a group of K-12 teacher advisors. They c
 
 [Curated collection of educational resources](https://nsdl.oercommons.org) sorted by grade and resource type.
 
+[Collection of hundreds of lesson plans and learning activities for BC teachers](https://teachbcdb.bctf.ca) sorted by grade subject and resource type.
+
 [Jupyter for kids](https://github.com/mikkokotila/jupyter4kids)
 
 [How To teach Python To kids](http://www.mechanicalgirl.com/post/pygotham-2016-young-coders-or-how-teach-python-kids/)
