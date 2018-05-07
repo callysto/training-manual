@@ -1,11 +1,9 @@
 {
 
 "plugins": [
-        "mathjax-commonhtml",
+        "mathjax",
         "mermaid-gb3"
 
     ],
-"pluginsConfig": {"mathjax-commonhtml": {
-            "defaultScaling": false
-        }}
+"pluginsConfig": {}
 }
