@@ -3,14 +3,14 @@
 * [Introduction](README.md)
 * [Quickstart Guide](quickstart.md)
 * [Preface](introduction.md)
-* [What is Computational Thinking?](computational_thinking.md)
+* [What is Computational Thinking?](computational-thinking.md)
 * Philosophy
     * [Goals of the Callysto Project](goals.md)
     * [Software tools - Eat Your Own Dogfood](tools1.md)
 * Notebook Design
     * [Notebook Format](notebook-format.md)
     * [Template](notebook-template.md)
-    * [Notebook Reviewer's Guide](content_review_guide.md)
+    * [Notebook Reviewer's Guide](reviews.md)
 * [Development Team Structure and Process](teams.md)
 * [Coding](coding.md)
     * [Jupyter, Under the Hood](under-the-hood.md)
