@@ -1,18 +1,15 @@
-# Content Reviewer's Guide
+# Review Guide
 
-This guide is intended for use by anyone who will be reviewing the content of any notebooks developed for the Callysto project. Certainly, if you're a developer for the Callysto project, knowing how your content will be assessed in advance will likely be helpful as well.
-
-
+This is a guide for developers who will be reviewing the content of notebooks developed for the Callysto project. Additionally it will provide insight into how your notebooks will be reviewed.
 
 ## Review Process
-We have outlined what to look for for the most a standard review process below.
 
-### Does the Notebook Adhere to the Style Guide?
-First and foremost, check to see if the notebook itself adheres to the Callysto style guide available [here](notebook-format.md), or [here](notebook-template.md) for a condensed version. If a notebook doesn't contain those elements (or doesn't have a good reason to not contain those elements), that notebook should not pass review until those requirements are satisfied.
-
+### Style
+First and foremost, check to see if the notebook itself adheres to the Callysto style guide available [here](notebook-format.md), or [here](notebook-template.md) for a condensed version. A notebook should only pass review if it has good style (or has a good reason not to).
 
 ### Content
 The following are areas to pay attention to when reviewing a notebook for Callysto
+1. Is the recommended grade level for the notebook displayed in the first cell underneath the title?
 1. Has the document been spell checked and does it use proper grammar?
     - Does the notebook use full sentences, paragraphs and punctuation?  
 1. Does the notebook keep the target audience in mind?
@@ -36,11 +33,10 @@ The following are areas to pay attention to when reviewing a notebook for Callys
 6. Does the notebook complete its curriculum objective?
 
 
-If the notebook you're reviewing has problems with any of the above, it will be important that you're clear with the developer as to what the issue is, and any suggestions you have for fixing those problems. Don't just tell the developer something like "your notebook is inappropriate for the intended audience" without also telling them _why_ and any suggestions you may have to fix it. Getting the developer to fix these issues will be considerably more efficient if they're given a starting point/reasons why they need to make changes.
+If the notebook you are reviewing has any of the issues listed above be *clear* and *specific*. For example instead of "your notebook is inappropriate for the intended audience" tell them *why*. Also tell them *where* the mistake or improvements are and provide actionable ways to fix it.
 
-
-### More Specific Basic Aesthetic Points
-We also want our notebooks to "look good". There is certainly no expectation that each notebook should appear as if it was masterfully constructed by a graphic designer, but little stylistic things are important. Below is a list of common stylistic issues to watch out for.
+### Specific Notebook Aesthetics
+Below is a list of common stylistic issues to watch out for.
 
 1. Does the notebook use consistent title formatting?
    - Is the title of the notebook created with `# Title`?
@@ -50,18 +46,19 @@ We also want our notebooks to "look good". There is certainly no expectation tha
 1. Images
     - Do images possess a caption/is their relevance explained somewhere in adjacent text?
     - Does their placement make sense?
-    - Is the image/font within large enough to read?
+    - Is the image/font large enough to read?
 1. Graphs
-    - Are all axis labelled?
+    - Is it compliant with the [infovis recommendations](https://github.com/callysto/training-manual/blob/master/markdown/infovis.md)?
+    - Are all axes labelled?
       - With units (where applicable)?
     - Is the font large enough to read at a glance?
     - Is there a legend (where applicable)?
 1. Tables
     - If the notebook contains data tables, is the column alignment consistent?
-    - Is the table cut off due to the width of the window?
+    - Is the table cut off due to the width of the window? 
     - Do the column names make sense?
     - Do the column names contain units (where applicable)?
-1. In line code/code blocks
+1. Inline code/code blocks in the markdown
     - Is inline code/variable references in the main body contained within back tics ( \` ) such that it renders as `variable`, so that it is distinguishable in the main body?
     - Are blocks of code to be discussed in triple back ticks ( \`\`\` ) such that they render similar to:
       ```python
@@ -80,10 +77,10 @@ We also want our notebooks to "look good". There is certainly no expectation tha
      \end{equation}`?
      - For example, something large and horrible like $$\left[-\frac{\hbar^2}{2m}\nabla^2+V(\vec r) + \int \frac{e^2n_\mathrm{s}\left(\vec r'\right)}{\left|\vec r-\vec r'\right|} \,{\mathrm d}^3r' + V_\mathrm{XC}[n_\mathrm{s}(\vec r)](\vec r)\right] \varphi_i(\vec r) = \varepsilon_i \varphi_i(\vec r)$$ should never appear in-line like this, and should be put in the proper equation environment.
      - If an equation is referenced in the discussion, is the equation numbered?
-1. Coloring/fonts
-    - Are any custom fonts/colors readable?
+1. Colouring/fonts
+    - Are any custom fonts/colours readable?
 1. External links
     - Are they hidden with something like `[link to display](longlonglongwebsite.com)`?
-         - Does the link work?
+         - Does the link work? Will the link still work in a few years or is the website likely to change?
 
-In the case of these stylistic concerns, any fixes should be easy and straightforward to communicate to the developer. These are certainly tedious points, but if we're consistent with enforcing these, our notebooks will be stylistically similar between developers, and be pleasant on the eye.
+In the case of these stylistic concerns, fixes should be easy and straightforward to communicate to the developer. Consistently upholding them makes our notebooks stylistically consistent between developers, visually pleasing, and easy to use.
