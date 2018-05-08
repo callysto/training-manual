@@ -5,7 +5,7 @@ This guide is intended for use by anyone who will be reviewing the content of an
 
 
 ## Review Process
-We have outlined what to look for for the most a standard review process below.
+We have outlined a standard review process below.
 
 ### Does the Notebook Adhere to the Style Guide?
 First and foremost, check to see if the notebook itself adheres to the Callysto style guide available [here](notebook-format.md), or [here](notebook-template.md) for a condensed version. If a notebook doesn't contain those elements (or doesn't have a good reason to not contain those elements), that notebook should not pass review until those requirements are satisfied.
