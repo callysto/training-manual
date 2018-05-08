@@ -2,10 +2,11 @@
 
 This is a guide for developers who will be reviewing the content of notebooks developed for the Callysto project. Additionally it will provide insight into how your notebooks will be reviewed.
 
-## Review Process
+### Review Process 
+When a notebook is ready to be committed to staging it will need to be reviewed by one of the developers before it can be merged. This can be done by any of the developers and helps to ensure only high quality code is pushed to staging.
 
 ### Style
-First and foremost, check to see if the notebook itself adheres to the Callysto style guide available [here](notebook-format.md), or [here](notebook-template.md) for a condensed version. A notebook should only pass review if it has good style (or has a good reason not to).
+Check to see if the notebook itself adheres to the Callysto style guide available [here](notebook-format.md), or [here](notebook-template.md) for a condensed version. A notebook should only pass review if it has good style (or has a good reason not to have good style).
 
 ### Content
 The following are areas to pay attention to when reviewing a notebook for Callysto
