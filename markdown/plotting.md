@@ -2,8 +2,11 @@
 
 ## Index
 [matplotlib](#matplotlib)
+
 [plot.ly](#plot.ly)
+
 [D3](#D3)
+
 [Mathbox](#Mathbox)
 
 I strongly suggest learning matplotlib, then plot.ly, then D3 or Mathbox, in that order. You are not required to learn D3 or Mathbox although you will need to know how to use matplotlib and plot.ly.
@@ -82,10 +85,15 @@ data = [trace]
 py.iplot(data, filename='absValue-plot')
 ```
 
-## Advanced Plotting
+### Transition
+plot.ly was built on top of D3 to make it easier to create basic visualizations.
+If you have reached the limitations of plotly it is time to move on to D3. 
+
+****move this section to a different file
+## Advanced
 Before starting there are a few distinctions you should know:
 
-+ WebGL: is the Javascript API that allows you to create 3D graphics in the browser.
++ [WebGL](https://www.khronos.org/webgl/wiki/Getting_Started): is a DOM API that allows you to create 3D graphics in the browser. 
 
 + Three.js: a framework build on top of WebGL which makes it easier to create 3D graphics in the browser, it uses a canvas + WebGL to display the 3D scene.
 
@@ -97,6 +105,10 @@ You cannot easily convert from matplotlib/plot.ly to D3 or Mathbox. D3 and Mathb
 Usually the workflow would be to imagine a visualization you want, and then directly begin to create it in D3 or Mathbox.
 
 ### D3
+* Learning Curve: hard 
+* Functionality: allows you to bind data to the DOM, transform it, and then generate HTML/CSS and interactive SVGs 
+* Context: D3 is a javascript library
+
 D3 is similar to but far better than, matplotlib or plot.ly. It has a large learning curve and you will mostly be on your own for debugging and troubleshooting.
 If you really need D3 help you can contact Eric, eric.easthope@me.com.
 
@@ -106,6 +118,14 @@ It is easiest to do D3 mockups using [observable](https://beta.observablehq.com/
 
 If you are especially keen you can try combining D3 with three.js or related.
 
+***show the plotly plot in D3/D3 code behind the plotly plot
+
 ### Mathbox
+* Learning Curve: extra hard 
+* Functionality: sky's the limit. Just kidding, you can graph outer space too. Given Mathbox's rendering capabilities you could probably even do it in O(n) time. 
+* Context: mathbox is based on Three.js and ShaderGraph, it is used through its JS based DOM. It renders in the browser using webgl.
+
 Mathbox can do almost anything you want and pushes the limits of computer graphics. However... it is not actively maintained, the docs are terrible, and the learning curve is very steep.
 Take a look at some of the pages of [acko.net](https://acko.net/blog/mathbox2/), feel free to explore to some of the other pages to see more examples.
+
+****show the plot in mathbox
