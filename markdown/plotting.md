@@ -1,5 +1,11 @@
 # Plotting
 
+## Index
+[matplotlib](#matplotlib)
+[plot.ly](#plot.ly)
+[D3](#D3)
+[Mathbox](#Mathbox)
+
 I strongly suggest learning matplotlib, then plot.ly, then D3 or Mathbox, in that order. You are not required to learn D3 or Mathbox although you will need to know how to use matplotlib and plot.ly.
 
 [Here are some examples](https://python-graph-gallery.com/all-charts/) of python charts.
@@ -7,7 +13,11 @@ I strongly suggest learning matplotlib, then plot.ly, then D3 or Mathbox, in tha
 You can see some plotting functions at the bottom of [this](https://github.com/inygy/nserc-analysis/blob/master/SelectionsTemplate.ipynb) file. In the future we may attempt to turn these into generalized plotting functions.
 
 ## matplotlib
-Matplotlib is the easiest, it is good for mockups and initial plots.
+
+* Learning Curve: easy.
+* Functionality: basic plotting.
+* Context: matplotlib is the standard python library for plotting.
+
 You can import seaborn to make your matplotlib plots instantly look better or convert your matplotlib plot to a plot.ly plot for better interactivity.
 
 [Example](http://pbpython.com/simple-graphing-pandas.html) of a simple graph with data
@@ -16,14 +26,8 @@ You can import seaborn to make your matplotlib plots instantly look better or co
 
 You can use [html5 to animate matplotlib](https://github.com/callysto/training-manual/blob/master/markdown/animate-graphs.md) however generally we suggest that you use plot.ly instead.
 
-## Plot.ly
-Plot.ly is good for interactivity. You can easily convert your matplotlib plots into plot.ly.
-
-Plot.ly in Jupyter notebooks [tutorial](https://plot.ly/python/ipython-notebook-tutorial/)
-
-[Plot data from a csv](https://plot.ly/python/plot-data-from-csv/()
-
-Sample plot.ly graph, from a matplotlib plot:
+### Transition
+You can us plot.ly to add interactivity to your matplotlib plots.
 
 ```!pip install plotly --user;```
 
@@ -46,7 +50,16 @@ plotly_fig = tls.mpl_to_plotly(fig)
 py.iplot(plotly_fig)
 ```
 
-The same plot using only plotly (preferred):
+## Plot.ly
+* Learning Curve: medium.
+* Functionality: plots, [svg maps](https://plot.ly/javascript/#maps), [custom controls](https://plot.ly/javascript/#controls) (like sliders) and [basic animations](https://plot.ly/javascript/#animations)
+* Context: plot.ly is a javascript library that was built on top of D3 (and stack.gl) to offer simplified D3 functionality. 
+
+Plot.ly in Jupyter notebooks [tutorial](https://plot.ly/python/ipython-notebook-tutorial/)
+
+[Plot data from a csv](https://plot.ly/python/plot-data-from-csv/)
+
+Now we can take off the first set of training wheels and make the plot above with only plotly (no matplotlib):
 ```
 import numpy as np
 import plotly.offline as py
