@@ -85,5 +85,7 @@ We also want our notebooks to "look good". There is certainly no expectation tha
 1. External links
     - Are they hidden with something like `[link to display](longlonglongwebsite.com)`?
          - Does the link work?
+1. Citations
+     - Are citations surrounded with " and start with > (example >"Citation")?
 
 In the case of these stylistic concerns, any fixes should be easy and straightforward to communicate to the developer. These are certainly tedious points, but if we're consistent with enforcing these, our notebooks will be stylistically similar between developers, and be pleasant on the eye.
